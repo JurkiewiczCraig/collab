@@ -1,0 +1,80 @@
+<!-- Methods.html-->
+<!-- Created by Craig Jurkiewicz, Tyler Rubini and Ashwin Balaji Srinivasan-->
+<!-- Date Created May 14th 2024-->
+<html lang = "en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Walkability Index For The City of Peterborough</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <body>
+<div class = "titleimagecontainercontiner">
+    <div class = "titleimagecontainer">
+        <div class = "titleimage">
+            <h1> STAC Enterprises</h1>
+        </div>
+    </div>
+</div>
+<!-- navbar taken from work done by Craig Jurkiewicz and Lori Lowy-->
+<div class="navbar" id="myNav">
+	<!-- Creating a div to store the hamburger menu icon with a function that run when the user clicks the icon -->
+	<div class="hamburger" onclick="responsiveNav(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	  </div>
+	<a href="index.html" >Project</a>  <!-- Indicates currently active page -->
+	<div class="dropdown">
+		<button class="dropbtn">Solutions</button>
+		<!-- Industries dropdown menu content -->
+		<div class="dropdown-content">
+			<a href="results.html#webmap">Web Maps</a>
+			<a href="results.html#survey123">Survey123</a>
+		   <a href="results.html#storymap">StoryMap</a>
+		   <a href="results.html#dashboard">Dashboard</a>
+		</div> 
+	</div>
+	<a href="methods.html"class="active">Methodology</a>
+	<a href="team.html">Team</a>
+</div>
+<div class = "wrapper">
+<h2 class = "titles"> Methodology
+</h2>
+
+<h3>OverView</h3>
+<p>The client had originally requested for several web maps, an ArcGIS Dashboard and a ESRI file geodatabase to showcase how walkable differeent areas of the city are, and use this information for planning purposes and use the information we gathered for further projects.  After speaking with the client the team at STAC Enterprises also thought it would be a good idea to include an ArcGIS StoryMap as well as Survey using Survey123, to help showcase the information in a more in depth and easy to pick up manner and help field crews in completing and documenting assets associated with walkability.</p>
+<h3> Walkability Index and Models</h3>
+<p>  With the Data that was provided to us by the client, along with some research into the demographics fo Peterborough Ontario, our team worked on creating a walkability index of the city based off of sefveral factors including:</p>
+	<ul class = "list"> 
+	<li> Walktime to Public Transportation</li>
+	<li>Presence of PEdestrian Infrastructure</li>
+	<li>Curb Cut density (Also Known as a Crub Ramp)</li>
+	<li>Intersection density </li>
+	<li>Sidewalk Length </li>
+	<li>Streetlight Density</li>
+	<li>Pedestrian Network Surface Area</li>
+	<li>Crosswalk Density</li>
+	<li>Tree Cover</li>
+	<li>Park Amenities</li>
+</ul>
+   
+   <p> After taking all of these factors into play and weighting them against each other, we were able to come up with a final walkability index for the city of Peterborough, highlighting what areas of the city are most and least walkable.</p>
+<h3>Thematic Maps</h3>
+<p></p>
+<h3>Survey123</h3>
+<img id = "survey123" src=" images/Survey123.jpeg" alt = "Survey123">
+<p>The Team also created a Survey using Survey123 Connet.  This survey was designed to help out summer students and flesh out the data, as our client had mentioned to us that some of the datasets we were given were not 100% complete, and some of the attributes that we had been analyzing were missing data.  From there, we created a survey for summer students to use on future iterations of the project, having them collect spatial data on bicycle racks, benchs, garbage recepticles.  As well as areas of sidewalk that are in need of repair/cleaning up.  The results of this survey are automatically uploaded into ArcGIS Online onto a web map, and form there are automatically displayed within the Dashboard as well.</p>
+<h3>ArcGIS Dashboard</h3>
+<p></p>
+<h3>ArcGIS StoryMaps</h3>
+<p></p>
+
+
+</div>
+<footer>
+	<p class = "footer"> For more Information on the 2024 Fleming College Open House, Click Here</p>
+	</footer>
+
+</body>
+ 
+</html>
