@@ -409,3 +409,23 @@ text-align: center;
     border-width: 1px;
     color:whitesmoke;
 }
+
+ol{
+
+    color: #e0e0e0;
+    font-family: enoriteFont;
+}
+.results{
+height:75%;
+ 
+ 
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mapbook
+{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
