@@ -432,14 +432,27 @@ height:75%;
 	margin-right: auto;
 }
 
-.column {
+.columnMB {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
 /* Clearfix (clear floats) */
-.row::after {
+.rowMB::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columnSM {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowSM::after {
   content: "";
   clear: both;
   display: table;
