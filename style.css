@@ -443,7 +443,7 @@ height:75%;
 .columnMB {
   float: left;
   width: 25%;
-  padding: 2px;
+  padding: 4px;
 }
 
 /* Clearfix (clear floats) */
@@ -456,7 +456,7 @@ height:75%;
 .columnSM {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 3px;
 }
 
 /* Clearfix (clear floats) */
