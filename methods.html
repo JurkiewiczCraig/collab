@@ -41,10 +41,13 @@
 <h2 class = "titles"> Methodology
 </h2>
 
-<h3>OverView</h3>
-<p>The client had originally requested for several web maps, an ArcGIS Dashboard and a ESRI file geodatabase to showcase how walkable differeent areas of the city are, and use this information for planning purposes and use the information we gathered for further projects.  After speaking with the client the team at STAC Enterprises also thought it would be a good idea to include an ArcGIS StoryMap as well as Survey using Survey123, to help showcase the information in a more in depth and easy to pick up manner and help field crews in completing and documenting assets associated with walkability.</p>
-<h3> Walkability Index and Models</h3>
-<p>  With the Data that was provided to us by the client, along with some research into the demographics fo Peterborough Ontario, our team worked on creating a walkability index of the city based off of sefveral factors including:</p>
+<h3>Overview</h3>
+<p>The client had originally requested several static maps, an ArcGIS Dashboard, and an ESRI file geodatabase to showcase how walkable different areas of the city are, with the intent to use this information 
+for planning purposes and the development of for future projects. After speaking with the client, the team at STAC Enterprises also decided to include an ArcGIS StoryMap and a survey deployed with Survey123. 
+The former is intended to showcase the index and its underlying components in a more in-depth and easy-to-pick-up manner, while the latter is intended to help field crews to document the presence and quality of 
+assets associated with walkability.</p>
+<h3>Walkability Index and Models</h3>
+<p>In consultation with the client, a list of walkability factors was generated as well as a formula by which to calculate them. The list of factors is as follows:</p>
 	<ul class = "list"> 
 	<li> Park Amenities vs. Population (Park Amenities Density)</li>
 	<li>Road Length within 400m of Transit vs. Total Road Length (Access to Transit)</li>
@@ -58,8 +61,10 @@
   
 </ul>
    
-   <p> After taking all of these factors into play and weighting them against each other, we were able to come up with a final walkability index for the city of Peterborough, highlighting what areas of the city are most and least walkable.</p>
-   <img class = "results" src= "images/factors.jpg" alt = "Walkability Factors">  
+<p>The necessary data was obtained (from the client and elsewhere), extracted, and used to calculate an unweighted ratio between the two subfactors. The ratios were then classified on a one-to-five scale 
+and that classification value was weighted using values that were generated using an AHP (analytic hierarchy process). As can be seen in the image below, comfort factors (green) were weighted lower than 
+safety factors (purple), and both were weighted lower than accessibility factors (white).</p>
+<img class = "results" src= "images/factors.png" alt = "Walkability Factors">  
 
 <h3>Modelbuilder</h3>
 <p>ModelBuilder was a critical aspect of this project, as the Toolbox allows for our clients to repeat the processes that underwent the creation of the
