@@ -479,3 +479,12 @@ transition: none;
 margin-top: 10px;
 margin-bottom: 10px;
 }   
+
+.footerlink{
+
+    text-decoration:none;
+    text-align: center;
+    font-size: 25px;
+    color: #e0d8d8;
+    text-shadow: 2px 2px 5px #1f1f1f;
+}
