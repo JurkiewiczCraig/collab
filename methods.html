@@ -68,6 +68,14 @@ do make the walk more appealing), whereas a lack of safety can dissuade pedestri
 starts on foot) entirely impossible for people with certain abilities.</p>
 <img class = "results" src= "images/factors.png" alt = "Walkability Factors">  
 
+<h3>Spatial Analysis</h3>
+<p>For each of the nine walkability factors, a layer was generated showing the ratio between the two sub-factors on the dissemination area level. This was accomplished by summarizing vector data inside 
+DA polygons, joining the data, then dividing the resulting fields to create a ratio. The summary process was conducted with DA polygons that were slightly buffered (10 metres) in order to capture immediately-adjacent 
+features such as roads that run along the edge of the polygon. An example of this process can be seen below. The road centreline data is selected to only include roads, then both the length of those roads 
+and the number of intersections are summarized within dissemination areas. The data is joined, then the resulting layer is exported. Finally, in a separate model, the summarized fields are divided in order to 
+produce the final ratio.</p>
+<img class = "results" src= "images/modelexample.png" alt = "Intersection Density Model">  
+
 <h3>Modelbuilder</h3>
 <p>As a part of this project, a toolbox was provided containing a series of 22 sequential models that, when run from start to finish, will allow for the analysis to be recreated with updated data. 
 This will allow the client to generate future versions of the index and build upon the work STAC Enterprises has completed this semester.</p>
